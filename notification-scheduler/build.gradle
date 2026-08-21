@@ -6,6 +6,7 @@ plugins {
 }
 
 android {
+    namespace "me.dio.copa.catar.notification.scheduler"
     compileSdk 33
 
     defaultConfig {
@@ -39,6 +40,6 @@ dependencies {
 
     implementation "androidx.work:work-runtime-ktx:2.7.1"
 
-    kapt("com.google.dagger:dagger-compiler:2.44")
-    implementation("com.google.dagger:dagger:2.44")
+    kapt("com.google.dagger:dagger-compiler:2.51.1")
+    implementation("com.google.dagger:dagger:2.51.1")
 }
